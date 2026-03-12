@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert/
+
+# --- Geospatial / GIS temp files ---
+*.aux.xml
+*.tif.aux
+*.tif.ovr
+*.tif.vat.dbf
+*.tfw
+*.prj
+*.dbf
+*.shp.xml
+*.lock
+*.qgs~
+*.qml
+*.gpkg-wal
+*.gpkg-shm
+
+# Rasterio / GDAL temp files
+*.aux
+*.aux.json
+*.ovr
+*.idx
+*.xml
+
+# --- Data ---
+data/
+!data/README.md
+
+# --- OS / Editor files ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# --- VS Code ---
+.vscode/
