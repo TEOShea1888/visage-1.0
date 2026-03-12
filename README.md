@@ -18,40 +18,42 @@ This repository contains the core ViSAGE 1.0 model used for the Oxford North cas
 
 ---
 
-## 📁 Repository structure |
+## 📁 Repository structure
 
-📁 visage-1.0/
+```
+visage-1.0/
 │
-├── 📦 data/                 # Placeholder for input data (not included)
+├── data/                 # Placeholder for input data (not included)
 │
-├── 🧠 scripts/              # Core modelling code
+├── scripts/              # Core modelling code
 │   │
-│   ├── 00_setup/            # Data loading, cleaning, parameters
+│   ├── 00_setup/         # Data loading, cleaning, parameters
 │   │   ├── load_data.py
 │   │   ├── prepare_layers.py
 │   │   └── parameters.py
 │   │
-│   ├── 01_model/            # Gravity model + quality attractor + OD builder
+│   ├── 01_model/         # Gravity model + quality attractor + OD builder
 │   │   ├── gravity_model.py
 │   │   ├── quality_attractor.py
 │   │   ├── od_matrix_builder.py
 │   │   └── utils.py
 │   │
-│   ├── 02_scenarios/        # Baseline + Oxford North + scenario runner
+│   ├── 02_scenarios/     # Baseline + Oxford North + scenario runner
 │   │   ├── run_baseline.py
 │   │   ├── run_oxford_north.py
 │   │   └── scenario_runner.py
 │   │
-│   └── 🗺️ 03_outputs/        # Triptych plotting + exports + summaries
+│   └── 03_outputs/       # Triptych plotting + exports + summaries
 │       ├── plot_triptych.py
 │       ├── export_results.py
 │       └── summarise_outputs.py
 │
-├── 📓 notebooks/            # Exploratory analysis (optional)
+├── notebooks/            # Exploratory analysis (optional)
 │
-├── 🖼️ figures/               # Baseline, scenario and difference maps
+├── figures/              # Baseline, scenario and difference maps
 │
-└── 📄 paper/                # Manuscript and technical chapter scaffolding
+└── paper/                # Manuscript and technical chapter scaffolding
+```
 
 ---
 
